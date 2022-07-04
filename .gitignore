@@ -25,5 +25,5 @@ yarn-error.log*
 # Sass
 *.css.map
 *.css
-!*/src/assets/scss/style.css
+!style.css
 
