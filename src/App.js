@@ -2,15 +2,17 @@
 import { useState, useEffect } from 'react'
 import { render } from 'react-dom'
 
-import logo from './logo.svg';
-import './App.css';
+import './assets/scss/style.css';
+import Header from './views/Header'
 
 function App() {
   return (
-    <div className="App">
-      <p>Hello</p>
-    </div>
+    <>
+      <Header/>
+    </>
   );
 }
+
+
 
 export default App;

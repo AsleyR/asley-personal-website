@@ -1,0 +1,44 @@
+.header-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #232323;
+  padding: 0rem 5rem;
+  color: white;
+}
+
+.header-container a {
+  color: white;
+  text-decoration: none;
+  -webkit-transition: 0.1s ease;
+  transition: 0.1s ease;
+}
+
+.header-container .logo-container h1 {
+  color: white;
+}
+
+.header-container .logo-container h1 a:hover {
+  color: #d9d9d9;
+}
+
+.header-container .navbar-list {
+  padding: 0;
+}
+
+.header-container .navbar-list li {
+  display: inline;
+  list-style-type: none;
+  padding: 1rem;
+}
+
+.header-container .navbar-list li a:hover {
+  text-decoration: underline;
+}
+/*# sourceMappingURL=style.css.map */
