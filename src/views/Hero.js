@@ -16,12 +16,13 @@ const Content = () => {
             can help someone's life for the better.
           </p>
         </div>
-        <div className='check-work'>
-          <a href='#'>Check out my work</a>
+        <div className='check-work-container'>
+          <div className='check-work'>
+            <a className='check-work-link' href='#'>Check out my work</a>
+          </div>
         </div>
       </div>
       <div className='area-2'>
-        <h2>TEEE</h2>
       </div>
     </div>
   )
