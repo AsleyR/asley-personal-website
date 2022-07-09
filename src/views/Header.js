@@ -14,7 +14,7 @@ const Header = () => {
             <li><a href='#'>Work</a></li>
             <li><a href='#'>About</a></li>
             <li><a href='#'>Resume</a></li>
-            <li><a href='#'>Contact</a></li>
+            <li className='contact'><a href='#'>Contact</a></li>
           </ul>
         </div>
     </div>
