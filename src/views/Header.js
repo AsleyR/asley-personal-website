@@ -5,21 +5,18 @@ const Header = () => {
 
     <div className='header-container'>
         <div className='logo-container'>
-            <h2>
-                <a href='/'>Asley Robleto</a>
-            </h2>
+          <span className='logo'>
+            <a href='/'>AR</a>
+          </span>
         </div>
-      <ul className='navbar-list'>
-        <li>
-            <a href='/'>About</a>
-        </li>
-        <li>
-            <a href='/'>Contact Me</a>
-        </li>
-        <li>
-            <a href='/'>Resume</a>
-        </li>
-      </ul>
+        <div className='navbar-container'>
+          <ul className='navbar-ul'>
+            <li><a href='#'>Work</a></li>
+            <li><a href='#'>About</a></li>
+            <li><a href='#'>Resume</a></li>
+            <li><a href='#'>Contact</a></li>
+          </ul>
+        </div>
     </div>
   )
 }

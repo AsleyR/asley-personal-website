@@ -1,0 +1,10 @@
+.hero-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 2rem 7rem;
+
+    .area-1 {
+        flex: 1;
+    }
+}

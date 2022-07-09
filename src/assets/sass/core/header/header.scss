@@ -2,37 +2,50 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #232323;
-    padding: 0rem 5rem;
-    color: white;
-
-    a {
-        color: white;
-        text-decoration: none;
-        transition: 0.1s ease;
-    }
+    margin: 1rem 7rem;
 
     .logo-container {
-        h1 {
-            color: white;
+        .logo {
+            font-family: 'Source Serif Pro', serif;
+            margin: 0;
+            font-size: 2rem;
+            font-weight: bold;
 
-            a:hover {
-                color: rgb(217, 217, 217);
+            a {
+                color: black;
+                text-decoration: none;
+                letter-spacing: -1px;
             }
         }
     }
 
-    .navbar-list {
-        padding: 0;
+    .navbar-container {
+        .navbar-ul {
+            margin: 0;
+            padding: 0;
 
-        li {
-            display: inline;
-            list-style-type: none;
-            padding: 1rem;
+            li {
+                list-style: none;
+                display: inline;
+                padding: 0rem 2rem;
+                font-size: 1rem;
+                
+                a {
+                    color: black;
+                    text-decoration: none;
+                    letter-spacing: -0.5px;
+                }
 
-            a:hover {
-                text-decoration: underline;
+                a:hover {
+                    color: rgb(125, 125, 125);
+                    transition: ease;
+                }
             }
+        }
+
+        .navbar-ul:last-child {
+            padding: 0;
+            background-color: yellow;
         }
     }
 }
