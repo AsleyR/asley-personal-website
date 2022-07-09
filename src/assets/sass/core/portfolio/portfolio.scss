@@ -1,0 +1,31 @@
+.portfolio-container {
+    display: flex;
+    align-items: center;
+    margin: 23rem 7rem;
+    border: 1px solid red;
+
+    .area-1 {
+        width: 30rem;
+
+        .section-tag-container {
+            .feature-projects-tag {
+                font-size: 1.1rem;
+            }
+
+            .feature-projects-tag::before {
+                content: "";
+                display: inline-block;
+                width: 50px;
+                height: 1px;
+                background: #555;
+                vertical-align: top;
+                margin-top: 11px;
+                margin-right: 10px;
+            }
+        }
+
+        .project-about {
+            padding: 7rem 0rem;
+        }
+    }
+}
