@@ -1,4 +1,5 @@
 import React from 'react'
+import Navbar from '../components/navbar'
 
 const Header = () => {
   return (
@@ -9,14 +10,7 @@ const Header = () => {
             <a href='/'>AR</a>
           </span>
         </div>
-        <div className='navbar-container'>
-          <ul className='navbar-ul'>
-            <li><a href='#'>Work</a></li>
-            <li><a href='#'>About</a></li>
-            <li><a href='#'>Resume</a></li>
-            <li className='contact'><a href='#'>Contact</a></li>
-          </ul>
-        </div>
+        <Navbar/>
     </div>
   )
 }
