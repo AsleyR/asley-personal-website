@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
-const sectionTag = ({ text }) => {
+const SectionTag = ({ text }) => {
   return (
     <div className='section-tag-container'>
         <p className='feature-projects-tag'>{text}</p>
@@ -9,8 +9,8 @@ const sectionTag = ({ text }) => {
   )
 }
 
-sectionTag.propTypes = {
+SectionTag.propTypes = {
   text: PropTypes.string
 };
 
-export default sectionTag
+export default SectionTag

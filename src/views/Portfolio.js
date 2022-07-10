@@ -1,11 +1,11 @@
 import React from 'react'
-import sectionTag from '../components/sectionTag'
+import SectionTag from '../components/sectionTag'
 
 const Portofolio = () => {
   return (
     <div className='portfolio-container'>
       <div className='area-1'>
-        <sectionTag text={'FEATURE PROJECTS'} />
+        <SectionTag text={"FEATURE PROJECTS"} />
         <div className='project-about'>
           <h1>Data Visualizer</h1>
           <p>
