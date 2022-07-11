@@ -1,15 +1,12 @@
 import React from 'react'
-import Navbar from '../components/navbar'
+import Navbar from '../components/header/navbar'
+import Logo from '../components/header/logo'
 
-const Header = () => {
+const Header = ({ sticky }) => {
   return (
 
     <div className='header-container'>
-        <div className='logo-container'>
-          <span className='logo'>
-            <a href='/'>AR</a>
-          </span>
-        </div>
+        <Logo/>
         <Navbar/>
     </div>
   )

@@ -1,5 +1,6 @@
 import React from 'react'
 import SectionTag from '../components/sectionTag'
+import ProjectTag from '../components/projectTag'
 
 const Portofolio = () => {
   return (
@@ -14,6 +15,7 @@ const Portofolio = () => {
             for its GUI.
           </p>
         </div>
+        <ProjectTag text={"Personal Project"}/>
       </div>
       <div className='area-2'>
         <h5>G</h5>

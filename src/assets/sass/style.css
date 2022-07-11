@@ -1,8 +1,23 @@
+.project-tag-container {
+  margin: 1rem 0rem;
+}
+.project-tag-container .project-tag {
+  background: rgb(216, 216, 216);
+  border-radius: 2rem;
+  padding: 0rem 1rem;
+  letter-spacing: -1px;
+}
+
 .header-container {
+  position: fixed;
+  top: 0;
+  left: 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin: 1rem 7rem;
+  overflow: hidden;
+  width: 100%;
 }
 .header-container .logo-container .logo {
   font-family: "Source Serif Pro", serif;
@@ -14,6 +29,9 @@
   color: black;
   text-decoration: none;
   letter-spacing: -1px;
+}
+.header-container .navbar-container {
+  margin: 0rem 14rem 0rem 0rem;
 }
 .header-container .navbar-container .navbar-ul {
   margin: 0;
@@ -42,14 +60,14 @@
 .hero-container {
   display: flex;
   align-items: center;
-  margin: 2rem 7rem;
+  margin: 7rem 7rem;
 }
 .hero-container .area-1 {
   padding: 3rem 0rem 0rem 0rem;
-  width: 30rem;
+  width: 35rem;
 }
 .hero-container .area-1 .hello-header {
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   font-family: "Source Serif Pro", serif;
 }
 .hero-container .area-1 .hello-content {
@@ -98,13 +116,12 @@
   display: flex;
   align-items: center;
   margin: 23rem 7rem;
-  border: 1px solid red;
 }
 .portfolio-container .area-1 {
   width: 30rem;
 }
 .portfolio-container .area-1 .section-tag-container .feature-projects-tag {
-  font-size: 1.1rem;
+  font-size: 1rem;
 }
 .portfolio-container .area-1 .section-tag-container .feature-projects-tag::before {
   content: "";
@@ -117,5 +134,15 @@
   margin-right: 10px;
 }
 .portfolio-container .area-1 .project-about {
-  padding: 7rem 0rem;
+  padding: 7rem 0rem 0rem 0rem;
+}
+.portfolio-container .area-1 .project-about h1 {
+  font-size: 2.2rem;
+}
+.portfolio-container .area-1 .project-about p {
+  margin: 1rem 0rem 0rem 0rem;
+  font-size: 1.3rem;
+  color: rgb(136, 136, 136);
+  letter-spacing: 1px;
+  line-height: 2.2rem;
 }/*# sourceMappingURL=style.css.map */

@@ -1,8 +1,13 @@
 .header-container {
+    position: fixed;
+    top: 0;
+    left: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 1rem 7rem;
+    overflow: hidden;
+    width: 100%;
 
     .logo-container {
         .logo {
@@ -20,6 +25,7 @@
     }
 
     .navbar-container {
+        margin: 0rem 14rem 0rem 0rem;
         .navbar-ul {
             margin: 0;
             padding: 0;

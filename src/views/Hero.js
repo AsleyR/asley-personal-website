@@ -1,7 +1,8 @@
 import React from 'react'
 import ScrollReveal from 'scrollreveal'
+import ShowWorkButton from '../components/showWorkButton'
 
-const Content = () => {
+const Hero = () => {
     ScrollReveal().reveal('.content-container', {delay: 600})
   return (
     <div className='hero-container'>
@@ -16,16 +17,12 @@ const Content = () => {
             can help someone's life for the better.
           </p>
         </div>
-        <div className='check-work-container'>
-          <div className='check-work'>
-            <a className='check-work-link' href='#'>Check out my work</a>
-          </div>
-        </div>
+        <ShowWorkButton/>
       </div>
-      <div className='area-2'>
-      </div>
+      {/* <div className='area-2'>
+      </div> */}
     </div>
   )
 }
 
-export default Content
+export default Hero
