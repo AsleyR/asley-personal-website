@@ -1,11 +1,10 @@
 .project-tag-container {
-  margin: 1rem 0rem;
+  margin: 1.5rem 0rem;
 }
 .project-tag-container .project-tag {
   background: rgb(216, 216, 216);
   border-radius: 2rem;
   padding: 0rem 1rem;
-  letter-spacing: -1px;
 }
 
 .custom-button-container {
@@ -40,6 +39,20 @@
 .custom-button-container .button .button-link:hover::after {
   transform: scaleX(1);
   transform-origin: bottom left;
+}
+
+.section-tag-container .section-tag {
+  font-size: 1rem;
+}
+.section-tag-container .section-tag::before {
+  content: "";
+  display: inline-block;
+  width: 50px;
+  height: 1px;
+  background: #555;
+  vertical-align: top;
+  margin-top: 11px;
+  margin-right: 10px;
 }
 
 .header-container {
@@ -154,19 +167,6 @@
 .portfolio-container .area-1 {
   width: 30rem;
 }
-.portfolio-container .area-1 .section-tag-container .feature-projects-tag {
-  font-size: 1rem;
-}
-.portfolio-container .area-1 .section-tag-container .feature-projects-tag::before {
-  content: "";
-  display: inline-block;
-  width: 50px;
-  height: 1px;
-  background: #555;
-  vertical-align: top;
-  margin-top: 11px;
-  margin-right: 10px;
-}
 .portfolio-container .area-1 .project-about {
   padding: 7rem 0rem 0rem 0rem;
 }
@@ -175,8 +175,8 @@
 }
 .portfolio-container .area-1 .project-about p {
   margin: 0.5rem 0rem 0rem 0rem;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   color: rgb(136, 136, 136);
-  letter-spacing: 1px;
+  letter-spacing: 0.5px;
   line-height: 2.2rem;
 }/*# sourceMappingURL=style.css.map */

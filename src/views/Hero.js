@@ -17,7 +17,7 @@ const Hero = () => {
             can help someone's life for the better.
           </p>
         </div>
-        <CustomButton text={"Check out my work"} link={"#"}/>
+        <CustomButton text={"Check out my work"} link={"#project"}/>
       </div>
       {/* <div className='area-2'>
       </div> */}

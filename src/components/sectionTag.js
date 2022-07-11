@@ -4,7 +4,7 @@ import PropTypes from 'prop-types'
 const SectionTag = ({ text }) => {
   return (
     <div className='section-tag-container'>
-        <p className='feature-projects-tag'>{text}</p>
+        <p className='section-tag'>{text}</p>
     </div>
   )
 }

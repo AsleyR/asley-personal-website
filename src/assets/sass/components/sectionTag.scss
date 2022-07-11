@@ -1,0 +1,16 @@
+.section-tag-container {
+    .section-tag {
+        font-size: 1rem;
+    }
+
+    .section-tag::before {
+        content: "";
+        display: inline-block;
+        width: 50px;
+        height: 1px;
+        background: #555;
+        vertical-align: top;
+        margin-top: 11px;
+        margin-right: 10px;
+    }
+}

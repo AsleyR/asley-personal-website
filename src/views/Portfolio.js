@@ -17,7 +17,7 @@ const Portofolio = () => {
           </p>
         </div>
         <ProjectTag text={"Personal Project"}/>
-        <CustomButton text={"View the project on Github"}/>
+        <CustomButton text={"View the project on Github"} link={"https://github.com/AsleyR/Data-Visualizer"}/>
       </div>
       <div className='area-2'>
         <h5>G</h5>

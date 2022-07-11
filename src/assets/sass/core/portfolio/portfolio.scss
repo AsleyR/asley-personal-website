@@ -6,23 +6,6 @@
     .area-1 {
         width: 30rem;
 
-        .section-tag-container {
-            .feature-projects-tag {
-                font-size: 1rem;
-            }
-
-            .feature-projects-tag::before {
-                content: "";
-                display: inline-block;
-                width: 50px;
-                height: 1px;
-                background: #555;
-                vertical-align: top;
-                margin-top: 11px;
-                margin-right: 10px;
-            }
-        }
-
         .project-about {
             padding: 7rem 0rem 0rem 0rem;
 
@@ -32,9 +15,9 @@
 
             p {
                 margin: 0.5rem 0rem 0rem 0rem;
-                font-size: 1.3rem;
+                font-size: 1.2rem;
                 color: rgb(136, 136, 136);
-                letter-spacing: 1px;
+                letter-spacing: 0.5px;
                 line-height: 2.2rem;
             }
         }
