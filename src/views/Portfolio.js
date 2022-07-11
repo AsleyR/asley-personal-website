@@ -1,10 +1,11 @@
 import React from 'react'
 import SectionTag from '../components/sectionTag'
 import ProjectTag from '../components/projectTag'
+import CustomButton from '../components/customButton'
 
 const Portofolio = () => {
   return (
-    <div className='portfolio-container'>
+    <div className='portfolio-container' id='project'>
       <div className='area-1'>
         <SectionTag text={"FEATURE PROJECTS"} />
         <div className='project-about'>
@@ -16,6 +17,7 @@ const Portofolio = () => {
           </p>
         </div>
         <ProjectTag text={"Personal Project"}/>
+        <CustomButton text={"View the project on Github"}/>
       </div>
       <div className='area-2'>
         <h5>G</h5>

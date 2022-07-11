@@ -8,6 +8,40 @@
   letter-spacing: -1px;
 }
 
+.custom-button-container {
+  margin: 2.8rem 0rem 0rem 0rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+  overflow: hidden;
+}
+.custom-button-container .button .button-link {
+  color: rgb(41, 41, 41);
+  text-decoration: none;
+  transition: all ease 0.4s;
+  position: relative;
+}
+.custom-button-container .button .button-link:hover {
+  font-size: 1.3rem;
+  transition: all 0.4s ease;
+  color: black;
+}
+.custom-button-container .button .button-link::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #111111;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+  transform: scaleX(0);
+}
+.custom-button-container .button .button-link:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
 .header-container {
   position: fixed;
   top: 0;
@@ -15,7 +49,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 1rem 7rem;
+  margin: 1rem 4rem;
   overflow: hidden;
   width: 100%;
 }
@@ -31,7 +65,7 @@
   letter-spacing: -1px;
 }
 .header-container .navbar-container {
-  margin: 0rem 14rem 0rem 0rem;
+  margin: 0rem 8rem 0rem 0rem;
 }
 .header-container .navbar-container .navbar-ul {
   margin: 0;
@@ -60,19 +94,19 @@
 .hero-container {
   display: flex;
   align-items: center;
-  margin: 7rem 7rem;
+  margin: 7rem 4rem 10rem 4rem;
 }
 .hero-container .area-1 {
   padding: 3rem 0rem 0rem 0rem;
-  width: 35rem;
+  width: 30rem;
 }
 .hero-container .area-1 .hello-header {
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   font-family: "Source Serif Pro", serif;
 }
 .hero-container .area-1 .hello-content {
   padding: 0.8rem 0rem 0rem 0rem;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   line-height: 40px;
 }
 .hero-container .area-1 .check-work-container {
@@ -115,7 +149,7 @@
 .portfolio-container {
   display: flex;
   align-items: center;
-  margin: 23rem 7rem;
+  padding: 8rem 4rem;
 }
 .portfolio-container .area-1 {
   width: 30rem;
@@ -140,7 +174,7 @@
   font-size: 2.2rem;
 }
 .portfolio-container .area-1 .project-about p {
-  margin: 1rem 0rem 0rem 0rem;
+  margin: 0.5rem 0rem 0rem 0rem;
   font-size: 1.3rem;
   color: rgb(136, 136, 136);
   letter-spacing: 1px;

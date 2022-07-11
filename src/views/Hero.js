@@ -1,6 +1,6 @@
 import React from 'react'
 import ScrollReveal from 'scrollreveal'
-import ShowWorkButton from '../components/showWorkButton'
+import CustomButton from '../components/customButton'
 
 const Hero = () => {
     ScrollReveal().reveal('.content-container', {delay: 600})
@@ -17,7 +17,7 @@ const Hero = () => {
             can help someone's life for the better.
           </p>
         </div>
-        <ShowWorkButton/>
+        <CustomButton text={"Check out my work"} link={"#"}/>
       </div>
       {/* <div className='area-2'>
       </div> */}
