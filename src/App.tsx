@@ -6,7 +6,7 @@ const App = () => {
     <div>
       <Header/>
       <h1 className='text-4xl'>Hello World</h1>
-      <h2 id='work' className='mt-[50rem]'>Work</h2>
+      <h2 id='work' className='mt-[50rem]'>Work (TEST)</h2>
     </div>
   )
 }
