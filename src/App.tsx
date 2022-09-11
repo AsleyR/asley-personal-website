@@ -1,13 +1,23 @@
 import React from 'react'
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route
+} from 'react-router-dom'
 import Header from './components/header/Header'
+import Footer from './components/footer/Footer'
+import Home from './pages/Home'
+import ErrorPage from './pages/ErrorPage'
 
 const App = () => {
   return (
-    <div>
+    <Router>
       <Header/>
-      <h1 className='text-4xl'>Hello World</h1>
-      <h2 id='work' className='mt-[50rem]'>Work (TEST)</h2>
-    </div>
+      <Routes>
+        <Route path='/' element={<Home/>}/>
+        <Route path='*' element={<ErrorPage/>}/>
+      </Routes>
+    </Router>
   )
 }
 
