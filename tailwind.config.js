@@ -7,6 +7,9 @@ module.exports = {
     extend: {
       fontFamily: {
         'source-serif': ['Source Serif Pro', 'serif']
+      },
+      colors: {
+        'gray-bg': "#f2f2f2"
       }
     },
   },
