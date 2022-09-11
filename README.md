@@ -1,6 +1,6 @@
 # Personal Website
 
-This is my personal website. Made with **React Js** and **Sass**.
+This is my personal website. Made with React typescript and tailwindCSS.
 
 ## License
 
