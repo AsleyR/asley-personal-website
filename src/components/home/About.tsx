@@ -15,7 +15,7 @@ const About = () => {
             I work mostly with React and Express to make web apps, but for my other projects, I usually just work with Python and with the PySimpleGui library if the need for a Gui arises. 
           </p>
         </div>
-        <div className='w-0 lg:w-[20rem]'>
+        <div className='flex justify-center w-0 lg:w-[20rem]'>
           <img className='' src='./images/programming.svg'></img>
         </div>
       </div>
