@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import {Link} from 'react-router-dom'
 import {FaTimes, FaBars} from 'react-icons/fa'
 
 const Header = () => {
@@ -16,7 +15,7 @@ const Header = () => {
                 <a className='hover:bg-gray-100 active:bg-gray-200 border-b border-gray-300 px-[1rem] py-4 cursor-pointer' href='/#work' onClick={() => {changePageTitle('My work - Asley Robleto'); setOpenMenu(false)}}>Work</a>
                 <a className='hover:bg-gray-100 active:bg-gray-200 border-b border-gray-300 px-[1rem] py-4 cursor-pointer' href="/#about" onClick={() => {changePageTitle('About me - Asley Robleto'); setOpenMenu(false)}}>About</a>
                 <a className='hover:bg-gray-100 active:bg-gray-200 border-b border-gray-300 px-[1rem] py-4 cursor-pointer' href="/#contact" onClick={() => {changePageTitle('Contact me - Asley Robleto'); setOpenMenu(false)}}>Contact</a>
-                <a className='hover:bg-gray-100 active:bg-gray-200 px-[1rem] py-4 cursor-pointer' href="/resume-asleyrobleto.pdf" target={'_blank'} onClick={() => {changePageTitle('Asley Robleto'); setOpenMenu(false)}}>Resume</a>
+                <a className='hover:bg-gray-100 active:bg-gray-200 px-[1rem] py-4 cursor-pointer' href="/resume-asleyrobleto.pdf" target={'_blank'} rel="noreferrer" onClick={() => {changePageTitle('Asley Robleto'); setOpenMenu(false)}}>Resume</a>
             </ul>
         </nav>
     )
@@ -36,7 +35,7 @@ const Header = () => {
             <li><a className='hover:text-gray-500 duration-150' href="/#work" onClick={() => changePageTitle('My work - Asley Robleto')}>Work</a></li>
             <li><a className='hover:text-gray-500 duration-150' href="/#about" onClick={() => changePageTitle('About me - Asley Robleto')}>About</a></li>
             <li><a className='hover:text-gray-500 duration-150' href="/#contact" onClick={() => changePageTitle('Contact me - Asley Robleto')}>Contact</a></li>
-            <li><a className='hover:text-gray-500 duration-150' href="/resume-asleyrobleto.pdf" target={'_blank'} onClick={() => changePageTitle('Asley Robleto')}>Resume</a></li>
+            <li><a className='hover:text-gray-500 duration-150' href="/resume-asleyrobleto.pdf" target={'_blank'} rel="noreferrer" onClick={() => changePageTitle('Asley Robleto')}>Resume</a></li>
           </ul>
         </nav>
         {openMenu ?
