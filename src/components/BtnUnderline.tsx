@@ -8,9 +8,9 @@ interface IProps {
 const BtnUnderline = ({text, link}: IProps) => {
   return (
     <div className='flex'>
-        <a href={`#${link}`} className="group font-bold text-lg md:text-xl hover:scale-110 origin-bottom-left transition duration-300">
+        <a href={`#${link}`} className="group font-bold text-lg active:scale-110 md:active:scale-100 md:text-xl md:hover:scale-110 md:origin-bottom-left transition duration-300">
             {text}
-            <span className="block max-w-0 group-hover:max-w-full transition-all duration-300 h-0.5 bg-black"></span>
+            <span className="md:block max-w-0 group-hover:max-w-full transition-all duration-300 h-0.5 bg-black"></span>
         </a>
     </div>
   )
