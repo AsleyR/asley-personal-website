@@ -1,5 +1,6 @@
 import React from 'react'
 import SectionTag from '../SectionTag'
+import Socials from '../Socials'
 
 const Contact = () => {
   return (
@@ -12,16 +13,7 @@ const Contact = () => {
             <p className='text-lg md:text-xl leading-9 transition-all'>
                 I'm always down to collaborate when I have the time. I'm dream of becoming a great developer and one day disrupt the tech ecosystem with a cool project.
             </p>
-            <div>
-                <ul className='flex w-full gap-3 transition-all'>
-                    <a className='w-9 hover:scale-105 transition-all' href="https://github.com/AsleyR" target={'_blank'}>
-                        <img className='object-cove max-w-full h-auto' src='./images/socials/github.svg'></img>
-                    </a>
-                    <a className='w-9 hover:scale-105 transition-all' href="https://www.linkedin.com/in/asleyr/" target={'_blank'}>
-                        <img className='object-cover max-w-full h-auto' src='./images/socials/linkedin.svg'></img>
-                    </a>
-                 </ul>
-            </div>
+            <Socials/>
         </div>
     </div>
   )
