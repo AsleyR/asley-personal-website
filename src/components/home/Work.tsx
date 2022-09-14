@@ -6,14 +6,14 @@ import SectionTag from '../SectionTag'
 
 const Work = () => {
   return (
-    <div className='py-[6rem]' id='work'>
+    <article className='py-[6rem]' id='work'>
         <SectionTag text='FEATURE PROJECTS'/>
-        <div className='grid gap-[10rem] mt-16'>
+        <section className='grid gap-[10rem] mt-16'>
             <DataVProject/>
             <Youter/>
             <TrailerParadise/>
-        </div>
-    </div>
+        </section>
+    </article>
   )
 }
 
