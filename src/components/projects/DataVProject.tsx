@@ -7,7 +7,7 @@ const DataVProject = () => {
       <section className='grid gap-5'>
         <div className='flex'>
           <h1 className='text-3xl lg:text-4xl hover:scale-105 origin-bottom-left transition-all font-bold'>
-            <a className='hover:text-gray-600 transition-all' href='https://github.com/AsleyR/Data-Visualizer' target={'_blank'}>Data Visualizer</a>
+            <a className='hover:text-gray-600 transition-all' href='https://github.com/AsleyR/Data-Visualizer' target={'_blank'} rel='noreferrer'>Data Visualizer</a>
           </h1>
         </div>
         <p className='pr-0 sm:pr-[8rem] md:pr-0 text-xl leading-8 text-[#888888]'>A simple python program that visualizes data from a ".csv" file. It uses the library PySimpleGui for its GUI.</p>
@@ -21,8 +21,8 @@ const DataVProject = () => {
           </ul>
         </section>
       </section>
-      <a className='order-first md:order-none' href='https://github.com/AsleyR/Data-Visualizer' target={'_blank'}>
-        <img className='block max-w-full h-auto object-cover shadow-xl cursor-pointer hover:scale-105 rounded-lg duration-500 transition-all' src='./images/data-v-logo.svg'></img>
+      <a className='order-first md:order-none' href='https://github.com/AsleyR/Data-Visualizer' target={'_blank'} rel='noreferrer'>
+        <img className='block max-w-full h-auto object-cover shadow-xl cursor-pointer hover:scale-105 rounded-lg duration-500 transition-all' src='./images/data-v-logo.svg' alt='Data Visualizer Logo'></img>
       </a>
     </article>
   )
