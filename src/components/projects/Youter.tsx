@@ -8,9 +8,11 @@ const Youter = () => {
         <img className='block max-w-full h-auto object-cover shadow-xl cursor-pointer hover:scale-105 rounded-lg duration-500 transition-all' src='./images/youter-logo.svg'></img>
       </a>
       <div className='grid gap-5'>
-        <h1 className='text-3xl lg:text-4xl font-bold'>
+        <div className='flex'>
+          <h1 className='text-3xl lg:text-4xl hover:scale-105 origin-bottom-left transition-all font-bold'>
             <a className='hover:text-gray-800 transition-all' href='https://github.com/AsleyR/Youter' target={'_blank'}>YouTer</a>
-        </h1>
+          </h1>
+        </div>
         <p className='pr-0 sm:pr-[8rem] md:pr-0 text-xl leading-8 text-[#888888]'>Terminal based gui program that downloads youtube videos in mp4 or mp3 formats. It uses youtube-dl and ffmpeg.</p>
         <ul className='flex flex-row flex-wrap gap-3'>
             <ProjectTag text='Personal Project'/>
