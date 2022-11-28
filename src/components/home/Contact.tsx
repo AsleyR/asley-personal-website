@@ -13,7 +13,7 @@ const Contact = () => {
                   <a className='not-italic hover:text-gray-700 duration-50' href="mailto:asleyrobleto@gmail.com">asleyrobleto@gmail.com</a>
               </address>
               <p className='text-lg md:text-xl leading-9 transition-all'>
-                  I'm always down to collaborate when I have the time. I'm dream of becoming a great developer and one day disrupt the tech ecosystem with a cool project.
+                  I'm always down to collaborate when I have the time. I dream of becoming a great developer and one day disrupt the tech ecosystem with a cool project.
               </p>
               <Socials/>
           </section>
