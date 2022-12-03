@@ -3,6 +3,7 @@ import {FaTimes, FaBars} from 'react-icons/fa'
 
 const Header = () => {
   const [openMenu, setOpenMenu] = useState<Boolean>(false)
+  const resumePath: String = '/resume-asleyrobleto.pdf' // File path of resume
 
   const changePageTitle = (newTitle: string) => {
     document.title = newTitle;
@@ -15,7 +16,7 @@ const Header = () => {
                 <a className='hover:bg-gray-100 active:bg-gray-200 border-b border-gray-300 px-[1rem] py-4 cursor-pointer' href='/#work' onClick={() => {changePageTitle('My work - Asley Robleto'); setOpenMenu(false)}}>Work</a>
                 <a className='hover:bg-gray-100 active:bg-gray-200 border-b border-gray-300 px-[1rem] py-4 cursor-pointer' href="/#about" onClick={() => {changePageTitle('About me - Asley Robleto'); setOpenMenu(false)}}>About</a>
                 <a className='hover:bg-gray-100 active:bg-gray-200 border-b border-gray-300 px-[1rem] py-4 cursor-pointer' href="/#contact" onClick={() => {changePageTitle('Contact me - Asley Robleto'); setOpenMenu(false)}}>Contact</a>
-                <a className='hover:bg-gray-100 active:bg-gray-200 px-[1rem] py-4 cursor-pointer' href="/resume-asleyrobleto.pdf" target={'_blank'} rel="noreferrer" onClick={() => {changePageTitle('Asley Robleto'); setOpenMenu(false)}}>Resume</a>
+                <a className='hover:bg-gray-100 active:bg-gray-200 px-[1rem] py-4 cursor-pointer' href={`${resumePath}`} target={'_blank'} rel="noreferrer" onClick={() => {changePageTitle('Asley Robleto'); setOpenMenu(false)}}>Resume</a>
             </ul>
         </nav>
     )
