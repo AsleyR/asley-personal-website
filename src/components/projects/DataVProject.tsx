@@ -10,7 +10,7 @@ const DataVProject = () => {
             <a className='hover:text-gray-600 transition-all' href='https://github.com/AsleyR/Data-Visualizer' target={'_blank'} rel='noreferrer'>Data Visualizer</a>
           </h1>
         </div>
-        <p className='pr-0 sm:pr-[8rem] md:pr-0 text-xl leading-8 text-[#888888]'>A simple python program that visualizes data from a ".csv" file. It uses the library PySimpleGui for its GUI.</p>
+        <p className='pr-0 sm:pr-[8rem] md:pr-0 text-xl leading-8 text-[#888888]'>Python program that visualizes data from a ".csv" file. It uses the library PySimpleGui for its GUI.</p>
         <section>
           <ul className='flex flex-row flex-wrap gap-3'>
               <ProjectTag text='Personal Project'/>
