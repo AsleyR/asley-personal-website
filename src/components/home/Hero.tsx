@@ -14,7 +14,7 @@ const Hero = () => {
       </Fade>
       <Fade direction='down' triggerOnce={true}>
         <section className="ml-5 hidden lg:grid justify-center content-center w-full">
-          <img className='max-w-full w-[18rem] h-auto' src="images/programmer.svg" alt="Programmer" />
+          <img className='max-w-full w-[18rem] h-auto hover:scale-105 transition-all duration-500' src="images/programmer.svg" alt="Programmer" />
         </section>
       </Fade>
     </article>

@@ -18,7 +18,7 @@ const About = () => {
             </p>
           </section>
           <div className='flex justify-center w-0 lg:w-[20rem]'>
-            <img className='' src='./images/programming.svg' alt=''></img>
+            <img className='hover:scale-105 transition-all duration-500' src='./images/programming.svg' alt=''></img>
           </div>
         </article>
       </Fade>
