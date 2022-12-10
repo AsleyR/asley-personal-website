@@ -17,11 +17,11 @@ const Youter = () => {
         <section>
           <ul className='flex flex-row flex-wrap gap-3'>
             <ProjectTag text='Personal Project'/>
-            <ProjectTag text='Python'/>
-            <ProjectTag text='Command Line Tool'/>
             <ProjectTag text='Youtube-dl'/>
             <ProjectTag text='Ffmpeg'/>
-            <ProjectTag text='Terminal Based Program'/>
+            <ProjectTag text='Python'/>
+            <ProjectTag text='Curses'/>
+            <ProjectTag text='Terminal User Interface'/>
           </ul>
         </section>
       </section>

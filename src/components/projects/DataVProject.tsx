@@ -14,9 +14,9 @@ const DataVProject = () => {
         <section>
           <ul className='flex flex-row flex-wrap gap-3'>
               <ProjectTag text='Personal Project'/>
-              <ProjectTag text='Python'/>
-              <ProjectTag text='GUI'/>
               <ProjectTag text='Data Parsing'/>
+              <ProjectTag text='Python'/>
+              <ProjectTag text='Graphical User Interface'/>
               <ProjectTag text='Desktop Program'/>
           </ul>
         </section>
