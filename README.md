@@ -34,7 +34,7 @@ The project is hosted on [Render](https://render.com), and you can access it at 
 
 ## License
 
-This project uses the MIT license.
+This project falls under the GPL-3.0 license.
 
-[❯ Read more about the license here →](LICENSE.md) 🔏
+[❯ Read more about the license here →](LICENSE) 🔏
 
