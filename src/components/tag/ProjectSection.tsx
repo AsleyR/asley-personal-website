@@ -12,9 +12,10 @@ export default function ProjectSection() {
             {
                 Projects.map((project: any, index: number) => {
                     const projectProp = {
-                        title: project.title, description: project.description,
-                        imagePath: project.imagePath, link: project.link,
-                        repoLink: project.repoLink, projectTags: project.projectTags
+                        title: project.title, role: project.role,
+                        description: project.description, imagePath: project.imagePath,
+                        link: project.link, repoLink: project.repoLink,
+                        projectTags: project.projectTags
                     }
 
                     let layout = DetermineLayout(index)
