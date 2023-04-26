@@ -1,4 +1,3 @@
-import React from 'react'
 import {
   BrowserRouter as Router,
   Routes,
@@ -11,10 +10,10 @@ import ErrorPage from './pages/ErrorPage'
 const App = () => {
   return (
     <Router>
-      <Header/>
+      <Header />
       <Routes>
-        <Route path='/' element={<Home/>}/>
-        <Route path='*' element={<ErrorPage/>}/>
+        <Route path='/' element={<Home />} />
+        <Route path='*' element={<ErrorPage />} />
       </Routes>
     </Router>
   )
