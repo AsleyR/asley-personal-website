@@ -1,4 +1,5 @@
 import { ProjectContainerProps } from "../../lib/types/ProjectContainerProps";
+import ProjectBtn from "../ProjectBtn";
 import ProjectTags from "../tag/ProjectTags";
 
 interface IProps {
@@ -24,10 +25,16 @@ export default function ProjectContainer({ props, layout }: IProps) {
                     <ProjectTags tags={props.projectTags} />
                 </section>
             </section>
-            <a className={`${layout === "left" ? "order-first md:order-none" : "order-first md:order-second"}`} href={projectLink} target={'_blank'} rel='noreferrer'>
-                <img className='block max-w-full h-auto object-cover shadow-xl cursor-pointer hover:scale-105 rounded-lg duration-500 transition-all'
-                    src={props.imagePath} alt='Data Visualizer Logo'></img>
-            </a>
+            <div className={`${layout === "left" ? "order-first md:order-none" : "order-first md:order-second"} flex flex-col gap-5`}>
+                <a className={``} href={projectLink} target={'_blank'} rel='noreferrer'>
+                    <img className='block max-w-full h-auto object-cover drop-shadow-xl border cursor-pointer hover:scale-105 rounded-lg duration-500 transition-all'
+                        src={props.imagePath} alt='Data Visualizer Logo'></img>
+                </a>
+                <div className="flex gap-3">
+                    <ProjectBtn text="Live Demo" link={projectLink} />
+                    <ProjectBtn text="Github" link={props.repoLink} />
+                </div>
+            </div>
         </article>
     )
 }
