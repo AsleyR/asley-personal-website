@@ -11,7 +11,7 @@ const Contact = () => {
                 asleyrobleto@gmail.com
             </Link>
             <p className="text-lg">
-                I'm always down to collaborate when I have the time. I dream of becoming a great developer and one day disrupt the tech ecosystem with a cool project.
+                {`I'm always down to collaborate when I have the time. I dream of becoming a great developer and one day disrupt the tech ecosystem with a cool project.`}
             </p>
             <div className="flex gap-3">
                 <Link href={'https://github.com/AsleyR'} target={'_blank'}>
