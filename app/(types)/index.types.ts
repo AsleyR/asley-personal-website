@@ -22,6 +22,10 @@ export interface ButtonComponentProps extends ComponentProps {
     text: string
 }
 
+export interface ButtonLinkComponentProps extends ButtonComponentProps {
+    link: string;
+}
+
 export interface SectionTagComponentProps extends ComponentProps {
     id?: string;
     text: string;
