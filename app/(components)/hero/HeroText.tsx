@@ -1,5 +1,5 @@
 import { sourceSerifPro } from "@/app/(libs)/fonts/SourceSerifPro"
-import ButtonComponent from "../ButtonComponent"
+import HeroButton from "../HeroButton"
 
 const HeroText = () => {
     return (
@@ -7,7 +7,7 @@ const HeroText = () => {
             <h1 className={`font-bold text-6xl ${sourceSerifPro.className}`}>Hello there 👋</h1>
             <p className="font-base text-xl md:text-2xl tracking-wider">{`I'm Asley, a python and full stack developer based in Montréal, Canada. I love learning new stuff and creating pretty websites.`}</p>
             <div className="flex">
-                <ButtonComponent text="Check out my work" className="text-lg" />
+                <HeroButton link="/#work" text="Check out my work" className="text-xl md:text-lg" />
             </div>
         </div>
     )
