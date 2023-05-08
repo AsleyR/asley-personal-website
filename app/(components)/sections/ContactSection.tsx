@@ -6,7 +6,7 @@ const Contact = () => {
     return (
         <div className="grid grid-cols-auto gap-5 pr-0 lg:pr-[25rem]">
             <Link
-                className="font-bold text-3xl hover:scale-105 origin-bottom-left transition-all duration-200"
+                className="font-bold text-2xl md:text-3xl hover:scale-105 origin-bottom-left transition-all duration-200"
                 href={'mailto:asleyrobleto@gmail.com'}>
                 asleyrobleto@gmail.com
             </Link>
