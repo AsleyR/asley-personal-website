@@ -1,0 +1,54 @@
+[
+    {
+        "title": "Beauty E-commerce",
+        "role": "Front-end Developer",
+        "description": "Clone of Esqido website. Made using Next.js and styled using Tailwind CSS",
+        "tags": ["Personal projects", "Next.js", "Typescript", "Tailwind CSS", "E-commerce", "Front-end", "Design", "Mobile friendly", "Responsive"],
+        "url": "https://beauty-ecommerce.vercel.app",
+        "repoUrl": "https://github.com/AsleyR/beauty-ecommerce",
+        "image": "/images/beauty-ecommerce.svg"
+    },
+    {
+        "title": "LifeWild",
+        "role": "Full Stack Developer",
+        "description": "An online platform that allows users to search for animal entries and learn more about them",
+        "tags": ["Next.js", "Typescript", "Tailwind CSS", "Full stack", "Front-end design", "Prisma", "RESTful API", "Personal projects", "Mobile friendly"],
+        "url": "https://lifewild.vercel.app",
+        "repoUrl": "https://github.com/AsleyR/lifewild",
+        "image": "/images/lifewild.svg"
+    },
+    {
+        "title": "Trailer Paradise",
+        "role": "Full Stack Developer",
+        "description": "Website where you can watch movie and series trailers. Made using typescript and the MERN stack",
+        "tags": ["React.js", "Tailwind CSS", "Full stack", "Front-end design", "MERN stack", "RESTful API", "Mobile friendly", "Personal projects"],
+        "url": "https://trailer-paradise.onrender.com",
+        "repoUrl": "https://github.com/AsleyR/trailer-paradise",
+        "image": "/images/tp-logo.svg"
+    },
+    {
+        "title": "Personal Website",
+        "role": "Front-end Developer",
+        "description": "My portfolio website. Made using Next.js and styled using Tailwind CSS.",
+        "tags": ["Next.js", "Typescript", "Tailwind CSS", "Front-end design", "Mobile friendly", "Personal projects"],
+        "url": "https://asleyrobleto.com",
+        "repoUrl": "https://github.com/AsleyR/asley-personal-website",
+        "image": "/images/ps-logo.svg"
+    },
+    {
+        "title": "Data Visualizer",
+        "role": "Python Developer",
+        "description": "Python program that visualizes data from a .csv file. It uses the library PySimpleGui for its GUI.",
+        "tags": ["Personal projects", "Next.js", "Typescript", "Tailwind CSS", "E-commerce", "Front-end", "Design", "Mobile friendly", "Responsive"],
+        "repoUrl": "https://github.com/AsleyR/Data-Visualizer",
+        "image": "/images/data-v-logo.svg"
+    },
+    {
+        "title": "YouTer",
+        "role": "Python Developer",
+        "description": "Terminal based gui program that downloads youtube videos in mp4 or mp3 formats. It uses youtube-dl and ffmpeg",
+        "tags": ["Python", "Youtube-dl", "Ffmpeg", "Terminal based", "Personal projects"],
+        "repoUrl": "https://github.com/AsleyR/YouTer",
+        "image": "/images/youter-logo.svg"
+    }
+]
