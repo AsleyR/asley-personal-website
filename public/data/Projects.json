@@ -6,7 +6,7 @@
         "tags": ["Personal projects", "Next.js", "Typescript", "Tailwind CSS", "E-commerce", "Front-end", "Design", "Mobile friendly", "Responsive"],
         "url": "https://beauty-ecommerce.vercel.app",
         "repoUrl": "https://github.com/AsleyR/beauty-ecommerce",
-        "image": "/images/beauty-ecommerce.svg"
+        "image": "/images/projects/beauty-ecommerce.png"
     },
     {
         "title": "LifeWild",
@@ -15,7 +15,7 @@
         "tags": ["Next.js", "Typescript", "Tailwind CSS", "Full stack", "Front-end design", "Prisma", "RESTful API", "Personal projects", "Mobile friendly"],
         "url": "https://lifewild.vercel.app",
         "repoUrl": "https://github.com/AsleyR/lifewild",
-        "image": "/images/lifewild.svg"
+        "image": "/images/projects/lifewild.png"
     },
     {
         "title": "Trailer Paradise",
@@ -24,7 +24,7 @@
         "tags": ["React.js", "Tailwind CSS", "Full stack", "Front-end design", "MERN stack", "RESTful API", "Mobile friendly", "Personal projects"],
         "url": "https://trailer-paradise.onrender.com",
         "repoUrl": "https://github.com/AsleyR/trailer-paradise",
-        "image": "/images/tp-logo.svg"
+        "image": "/images/projects/trailer-paradise.png"
     },
     {
         "title": "Personal Website",
@@ -33,7 +33,7 @@
         "tags": ["Next.js", "Typescript", "Tailwind CSS", "Front-end design", "Mobile friendly", "Personal projects"],
         "url": "https://asleyrobleto.com",
         "repoUrl": "https://github.com/AsleyR/asley-personal-website",
-        "image": "/images/ps-logo.svg"
+        "image": "/images/projects/personal-website.png"
     },
     {
         "title": "Data Visualizer",
@@ -41,7 +41,7 @@
         "description": "Python program that visualizes data from a .csv file. It uses the library PySimpleGui for its GUI.",
         "tags": ["Personal projects", "Next.js", "Typescript", "Tailwind CSS", "E-commerce", "Front-end", "Design", "Mobile friendly", "Responsive"],
         "repoUrl": "https://github.com/AsleyR/Data-Visualizer",
-        "image": "/images/data-v-logo.svg"
+        "image": "/images/projects/data-visualizer.png"
     },
     {
         "title": "YouTer",
@@ -49,6 +49,6 @@
         "description": "Terminal based gui program that downloads youtube videos in mp4 or mp3 formats. It uses youtube-dl and ffmpeg",
         "tags": ["Python", "Youtube-dl", "Ffmpeg", "Terminal based", "Personal projects"],
         "repoUrl": "https://github.com/AsleyR/YouTer",
-        "image": "/images/youter-logo.svg"
+        "image": "/images/projects/youter.png"
     }
 ]
