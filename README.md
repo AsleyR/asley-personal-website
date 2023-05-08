@@ -17,7 +17,7 @@ This page is made using Next typescript, and styled using Tailwind CSS.
 
 ## Hosting
 
-The project is hosted on [Render](https://render.com), and you can access it at: [https://asleyrobleto.com](https://asleyrobleto.com).
+The project is hosted on [Vercel](https://vercel.com), and you can access it at: [https://asleyrobleto.com](https://asleyrobleto.com).
 
 ## License
 
