@@ -9,7 +9,7 @@ const Project = ({ project, direction }: { project: PortfolioProject, direction?
     }
 
     return (
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-16">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-5 md:gap-16">
             <Link className={`${direction === 'left' ? "order-first" : "order-first lg:order-last"} h-min shadow-box-xl hover:scale-105 transition-all duration-300 cursor-pointer`}
                 href={project.url || project.repoUrl} target={'_blank'} >
                 <Image
