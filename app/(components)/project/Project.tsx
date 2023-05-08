@@ -14,7 +14,8 @@ const Project = ({ project, direction }: { project: PortfolioProject, direction?
                 href={project.url || project.repoUrl} target={'_blank'} >
                 <Image
                     className='w-full h-full rounded-lg border'
-                    width={500} height={500}
+                    width={800} height={800}
+                    priority
                     src={project.image} alt={`${project.title} project photo`} />
             </Link>
             <ProjectContent project={project} />
