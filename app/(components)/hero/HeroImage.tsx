@@ -6,8 +6,8 @@ const HeroImage = () => {
             <Image
                 className="w-[22rem] h-full"
                 priority
-                width={500}
-                height={500}
+                width={800}
+                height={800}
                 src={'/images/programmer.svg'} alt="Hero image" />
         </div>
     )
