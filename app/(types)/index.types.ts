@@ -1,3 +1,5 @@
+import { projects } from "@prisma/client";
+
 export interface ComponentProps {
     text?: string;
     className?: string;
@@ -39,4 +41,8 @@ export interface PortfolioProject {
     url?: string;
     repoUrl: string;
     image: string;
+}
+
+export interface ProjectsProps {
+    projects: projects[]
 }
