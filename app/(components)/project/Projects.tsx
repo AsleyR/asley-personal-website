@@ -1,14 +1,12 @@
-import PortfolioProjects from '../../../public/data/Projects.json' assert { type: "json" }
-import { PortfolioProject } from "@/app/(types)/index.types"
+import { ProjectsProps } from "@/app/(types)/index.types"
 import Project from './Project'
 
-const projects = JSON.parse(JSON.stringify(PortfolioProjects))
+export default function Projects({ projects }: ProjectsProps) {
 
-const Projects = () => {
     return (
         <div className="flex flex-col gap-[8rem]">
             {
-                projects.map((project: PortfolioProject, index: number) => {
+                projects.map((project: any, index: number) => {
                     return (
                         <Project key={`${project.title} project`}
                             project={project}
@@ -20,5 +18,3 @@ const Projects = () => {
         </div>
     )
 }
-
-export default Projects

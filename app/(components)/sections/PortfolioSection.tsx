@@ -1,11 +1,12 @@
+import { projects } from "@prisma/client"
 import Projects from "../project/Projects"
 import SectionTag from "../SectionTag"
 
-const PortfolioSection = () => {
+const PortfolioSection = ({ projects }: { projects: projects[] }) => {
     return (
         <div className="my-[5rem]">
             <SectionTag id="work" text="FEATURE PROJECTS" />
-            <Projects />
+            <Projects projects={projects} />
         </div>
     )
 }
