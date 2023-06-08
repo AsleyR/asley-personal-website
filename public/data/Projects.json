@@ -9,6 +9,15 @@
         "image": "/images/projects/beauty-ecommerce.png"
     },
     {
+        "title": "Online Library",
+        "role": "Full Stack Developer",
+        "description": "An online library that allow users to create and share book entries",
+        "tags": ["Next.js", "Typescript", "Tailwind CSS", "Full stack", "Front-end design", "Auth0", "Prisma", "RESTful API", "Personal projects", "Mobile friendly"],
+        "url": "https://books-online-library.vercel.app",
+        "repoUrl": "https://github.com/AsleyR/Online-Library",
+        "image": "/images/projects/online-library.png"
+    },
+    {
         "title": "LifeWild",
         "role": "Full Stack Developer",
         "description": "An online platform that allows users to search for animal entries and learn more about them",
