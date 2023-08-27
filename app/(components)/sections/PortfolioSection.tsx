@@ -5,7 +5,7 @@ import SectionTag from "../SectionTag"
 const PortfolioSection = ({ projects }: { projects: projects[] }) => {
     return (
         <div className="my-[5rem]">
-            <SectionTag id="work" text="FEATURE PROJECTS" />
+            <SectionTag id="project" text="FEATURE PROJECTS" />
             <Projects projects={projects} />
         </div>
     )
