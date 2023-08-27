@@ -4,15 +4,19 @@ import Footer from "./(components)/Footer"
 import HeroSection from "./(components)/sections/HeroSection"
 import PortfolioSection from "./(components)/sections/PortfolioSection"
 import ContactSection from "./(components)/sections/ContactSection"
-import getAllProjects from "./(actions)/projects/getAllProjects"
+import fetchProjects from "./(libs)/fetchProjects"
+import WorkSection from "./(components)/sections/WorkSection"
+import fetchWorks from "./(libs)/fetchWorks"
 
 export default async function Home() {
-  const projects = await getAllProjects()
+  const projects = await fetchProjects()
+  const works = await fetchWorks()
 
   return (
     <>
       <HeroSection />
       <Container className="h-full w-full">
+        <WorkSection works={works} />
         <PortfolioSection projects={projects} />
         <AboutSection />
         <ContactSection />
