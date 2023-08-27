@@ -30,6 +30,6 @@
     "webpack": "^5.82.0"
   },
   "devDependencies": {
-    "prisma": "^4.15.0"
+    "prisma": "^4.16.2"
   }
 }
