@@ -17,3 +17,13 @@ model projects {
   title       String
   url         String?
 }
+
+model work {
+  id               String   @id @default(auto()) @map("_id") @db.ObjectId
+  company_name     String   @map("company-name")
+  description      String
+  end_date         DateTime @map("end-date")
+  responsabilities String[]
+  start_date       DateTime @map("start-date")
+  title            String
+}
