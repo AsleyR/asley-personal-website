@@ -20,8 +20,10 @@ export default async function Home() {
   return (
     <>
       <HeroSection />
-      <Container className="h-full w-full">
+      <div className="md:bg-gray-100 md:border-y border-gray-200 w-full px-mobilex lg:px-normalx">
         <WorkSection works={works} />
+      </div>
+      <Container className="h-full w-full">
         <PortfolioSection projects={projects} />
         <AboutSection />
         <ContactSection />
