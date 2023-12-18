@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-
+.polka-dots {
+    background-color: #FFFFFF;
+    opacity: 0.1;
+    background-image:  linear-gradient(#565656 0.9px, transparent 0.9px), linear-gradient(to right, #565656 0.9px, #FFFFFF 0.9px);
+    background-size: 18px 18px;
 }
