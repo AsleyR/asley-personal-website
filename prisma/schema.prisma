@@ -16,6 +16,7 @@ model projects {
   tags        String[]
   title       String
   url         String?
+  order       Int
 }
 
 model work {
@@ -26,4 +27,5 @@ model work {
   responsabilities String[]
   start_date       DateTime @map("start-date")
   title            String
+  order            Int
 }
