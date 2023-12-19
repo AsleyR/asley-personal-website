@@ -1,10 +1,14 @@
+import { Metadata } from 'next'
 import Navbar from './(components)/navbar/Navbar'
 import { montserrat } from './(libs)/fonts/Monserrat'
 import './globals.css'
 
-export const metadata = {
+export const metadata: Metadata = {
   title: 'Asley Robleto',
-  description: 'Welcome to my personal website and portfolio!',
+  description: 'A python and full stack developer based in Montréal, Canada. I love learning new stuff and creating pretty websites.',
+  alternates: {
+    canonical: `${process.env.BASE_URL}`
+  }
 }
 
 
