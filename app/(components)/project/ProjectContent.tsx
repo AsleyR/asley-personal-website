@@ -6,7 +6,7 @@ const ProjectContent = ({ project }: { project: PortfolioProject }) => {
     return (
         <div className="flex flex-col gap-3">
             <div className="">
-                <h1 className='font-bold text-3xl'>{project.title}</h1>
+                <h2 className='font-bold text-3xl'>{project.title}</h2>
                 <span className='italic'>{project.role}</span>
             </div>
             <p className='text-lg'>{project.description}</p>
