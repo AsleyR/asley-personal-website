@@ -20,10 +20,10 @@ const About = () => {
                     new tech, or working on a personal project, I'm chilling with a cup of coffee by my side.`}
                 </p>
                 <p className="leading-9">
-                    I'm currently studying Accounting at McGill University, which allows me to combine strong 
+                    {`I'm currently studying Accounting at McGill University, which allows me to combine strong 
                     technical skills with a solid understanding of business, finance, and data. This mix helps 
                     me build software that makes sense not just technically, but operationally and financially 
-                    as well.
+                    as well.`}
                 </p>
                 <p className="leading-9">
                     {`I work mostly with Next.js, Express and MongoDB to make web apps, but for my other projects, 
@@ -31,9 +31,9 @@ const About = () => {
                     depending on what the project requires.`}
                 </p>
                 <p className="leading-9"> 
-                    I'm constantly learning, improving my craft, and staying up to date with modern tools and best 
+                    {`I'm constantly learning, improving my craft, and staying up to date with modern tools and best 
                     practices. I'm especially interested in projects where technology, data, and business needs 
-                    intersect
+                    intersect`}
                 </p>
             </div>
              <div className="hidden lg:flex w-[25rem] h-full pr-5 justify-self-end about-me-pic">
