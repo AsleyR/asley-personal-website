@@ -8,10 +8,10 @@ const HeroText = () => {
             <div className="flex flex-col gap-3 font-base font-medium 
             text-lg md:text-2xl tracking-wide">
                 <p className="">
-                    {`I'm Asley, a python and full stack developer based in Montréal, Canada.`}
+                    {`I'm Asley, Bcom student and aspiring accountant at McGill University.`}
                 </p>
                 <p>
-                    {`I love learning new stuff and creating pretty websites.`}
+                    {`Python and Full Stack Developer based in Montréal, Canada.`}
                 </p>
             </div>
             <div className="flex">
