@@ -5,9 +5,9 @@ import HeroText from "../hero/HeroText"
 const HeroSection = () => {
     return (
         <>
-            <section className="relative z-10 bg-[#2c2718] lg:bg-inherit grid grid-cols-1 
+            <section className="relative z-10 bg-[#211e12] lg:bg-inherit grid grid-cols-1 
             lg:grid-cols-2 items-center align-middle gap-5 lg:gap-5
-            py-[4rem] lg:py-[8rem] px-mobilex lg:px-normalx
+            py-[4rem] lg:py-[7rem] px-mobilex lg:px-normalx
             text-gray-50">
                 {/* Regular background */}
                 <div className="absolute inset-0 -z-10 bg-black/40"></div>
@@ -16,7 +16,7 @@ const HeroSection = () => {
                 {/* Mobile Background */}
                 <div className="polka-dots absolute block lg:hidden inset-0 -z-10"></div>
 
-                <div className="relative z-20 w-full h-full rounded-xl p-5 ml-0 lg:-ml-5">
+                <div className="relative z-20 w-full h-full rounded-xl p-0 lg:p-5 ml-0 lg:-ml-5">
                     <div className="hidden lg:block absolute inset-0 -z-10 text-glass-effect"></div>
                     <HeroText />
                 </div>
