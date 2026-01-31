@@ -33,7 +33,7 @@ const About = () => {
                 <p className="leading-9"> 
                     {`I'm constantly learning, improving my craft, and staying up to date with modern tools and best 
                     practices. I'm especially interested in projects where technology, data, and business needs 
-                    intersect`}
+                    intersect.`}
                 </p>
             </div>
              <div className="hidden lg:flex w-[25rem] h-full pr-5 justify-self-end about-me-pic">
