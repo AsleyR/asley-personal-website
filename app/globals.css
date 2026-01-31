@@ -8,3 +8,20 @@
     background-image:  linear-gradient(#565656 0.9px, transparent 0.9px), linear-gradient(to right, #565656 0.9px, #FFFFFF 0.9px);
     background-size: 18px 18px;
 }
+
+.hero-pic {
+    background-image: url('../public/images/asley-pics/asley-1.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.about-me-pic {
+    background-image: url("../public/images/asley-pics/asley-2.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 25rem 30rem;
+    background-position: center bottom;
+    background-position-x: 82%;
+    background-origin: border-box;
+}
