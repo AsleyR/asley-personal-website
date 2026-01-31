@@ -6,7 +6,7 @@ const HeroButton = ({ text, className, link }: ButtonLinkComponentProps) => {
             <a href={link}>
                 {text}
             </a>
-            <span className="md:block max-w-0 group-hover:max-w-full transition-all duration-300 h-0.5 bg-black"></span>
+            <span className="md:block max-w-0 group-hover:max-w-full transition-all duration-300 h-0.5 bg-gray-50"></span>
         </button>
     )
 }
